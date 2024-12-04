@@ -64,7 +64,7 @@ function loginUser() {
 
     if (user) {
         localStorage.setItem("loggedInUser", JSON.stringify(user)); 
-        window.location.href = "Home.html";
+        window.location.href = "index.html";
     } else {
         alert("Invalid email or password!"); 
     }
